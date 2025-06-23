@@ -1,0 +1,86 @@
+body{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+h1{
+    color: #2d49a6;
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+    text-align: justify;
+    text-align: center;
+    font-style: italic;
+}
+
+ul{
+    text-align: center;
+    list-style-position: inside;
+}
+
+li{
+    margin: 0 auto;   
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #2d49a6;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.imagem1{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    border-radius: 10px;
+}
+
+table{
+    border: 2px solid #444;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr,td,th{
+    border: 2px solid #444;
+    padding: 10px 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+th{
+    background-color: #2d49a6;
+    color: aliceblue;
+}
+
+a{
+    display: grid;
+    place-items: center;
+}
+
+a:hover {
+    color: #2d49a6;
+    text-decoration: none;
+}
+
+#botao{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    background-color: #2d49a6;
+    color: aliceblue;
+    font-style: italic;
+}
+
+#mensagem{
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic, bold;
+}
